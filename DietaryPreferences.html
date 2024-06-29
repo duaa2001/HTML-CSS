@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!--Duaa Tariq 4/10/2024-->
+        <h1>Duaa Tariq</h1>
+        <p><em>a fullstackHer girlie</em></p>
+    </header>
+
+    <div id="food-preferences">
+
+        <fieldset>
+        <!--Checkbox Preferences-->
+            <legend>Select your dietary preferences</legend>
+            <label for="food_preference">
+                <input type="checkbox" name="food" value="vegeterian" id="food_vegeterian">
+                Vegeterian
+            </label>
+            <br>
+            <label for="food_preference">
+                <input type="checkbox" name="food" value="vegan" id="food_vegan">
+                Vegan
+            </label>
+            <br>
+            <label for="food_preference">
+                <input type="checkbox" name="food" value="glutenfree" id="food_glutenfree">
+                Gluten-free
+            </label>
+            <br>
+            <label for="food_preference">
+                <input type="checkbox" name="food" value="dairy" id="food_dairy">
+                Dairy
+            </label>
+            <br>
+            <button type="button" onclick="">Click Button</button>
+        </fieldset>
+
+        <fieldset>
+            <!--Radio Preferences-->
+            <legend>Favorite Cuisine</legend>
+            <label for="food_cuisine">
+                <input type="radio" name="food" value="mexican" id="food_mexican">
+                Mexican
+            <label for="food_cuisine">
+                <input type="radio" name="food" value="italian" id="food_italian">
+                Italian
+            <label for="food_cuisine">
+                 <input type="radio" name="food" value="thai" id="food_thai">
+                Thai
+            <label for="food_cuisine">
+                    <input type="radio" name="food" value="indian" id="food_indian">
+                Indian
+            <br>
+            <button type="button" onclick="">Click Button</button>
+        </fieldset>
+
+            <!--Text Inputs-->
+            <label for="favorite_food">Favorite Food:</label>
+            <input type="text" id="favorite_food" name="favorite_food"><br>
+            <label for="dietary_restrictions">Dietary Restrictions:</label>
+            <input type="text" id="dietary_restrictions" name="dietary_restrictions">
+            <br>
+
+            <!--Textarea Notes-->
+            <label for="additonal_comments">Additional Comments:</label>
+            <br>
+            <textarea name= "additional_comments" id= "additional_comments" placeholders = "Feel free to add comments here!"></textarea>
+            <br>
+
+            <!--Number Input and Max Length-->
+            <label for="meals_perday">Number of Meals per day:</label>
+            <input type="number" id="meals_perday" name="meals_perday">
+            <br>
+            <label for="favorite_dish">Favorite Dish (10 characters or less):</label>
+            <br>
+            <textarea id= "favorite_dish" name="favorite_dish" maxlength = 10></textarea>
+            <br>
+            
+            <!--Disabled and Read-Only Inputs-->
+            <label for="unavailable-food">Unavailable Food Item:</label>
+            <input type="text" id="unavailable-food" name="unavailable-food" disabled><br>
+            <label for="read_only_info">Read-only Information:</label>
+            <input type="text" id="read_only_info" name="read_only_info" value="This message is read-only." readonly>
+            <br>
+
+            <!--Output Calculation-->
+            <label for="calorie_count">Total Calories Consumed:</label>
+            <input type="range" name="calorie_count" id="calorie_count" min="0" max="5000" value="2500">
+            <input type="number" name="calorie_count" id="calorie_count" min="0" max="5000" value="2500">
+            <input type="number" id="calorie_display" name="calorie_display" value= "2500" readonly><br>
+            
+            <!--Dropdown Menu(standard)-->
+            <label for = "beverage_type"></label> Beverage Type:</label>
+            <select id="beverage_type" name="beverage_type">
+                <option name="Beverage" value="water">water</option>
+                <option name="Beverage" value="juice">juice</option>
+                <option name="Beverage" value="sodar">soda</option>
+                <option name="Beverage" value="tea">tea</option>
+                <option name="Beverage" value="coffee">coffee</option>
+            </select><br>
+            <!--Dropdown Menu(grouping)-->
+            <label for="alcoholic_beverage">Alcoholic Beverage:</label><br>
+            <select id="alcoholic_beverage" name="alcoholic_beverage">
+                <optgroup label="Non-alcoholic">
+                    <option value="mocktail">Mocktail</option>
+                    <option value="virgin mojito">virgin mojito</option>
+                </optgroup>
+                <optgroup label="Alcoholic">
+                    <option value="wine">wine</option>
+                    <option value="vodka">vodka</option>    
+                </optgroup>
+            </select><br>
+        </div>
+</body>
+</html>
