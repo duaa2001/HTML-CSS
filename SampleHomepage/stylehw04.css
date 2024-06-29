@@ -1,0 +1,50 @@
+/* Duaa Tariq 04/18/2024 */
+
+header h1 {
+    color: #ff00bf; /* Color Styles */
+
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal; /* Font Styles */
+    font-size: 45px; /* Font Size */
+}
+
+.featured-items h2 {
+    color: rgba(47, 47, 47, 0.8); /* Color Styles */
+    font-style: italic; /* Font Styles */
+}
+
+.item {
+    color: rgb(220, 130, 140); /* Color Styles */
+    
+    font-family: "Micro 5", sans-serif;
+    font-weight: 600;
+    font-style: normal; /* Font Styles */
+    
+    border: solid 2px black; /* Color Styles */
+    background-color: rgb(161, 226, 231);
+}
+
+.item h3 {
+    font-size: 30px; /* Font Size */
+}
+
+.item p {
+    font-size: 24px; /* Font Size */
+}
+
+button {
+    color: rgba(255,255,255,1); /* Color Styles */
+    background-color: hsla(223, 100%, 53%, 0.872);
+}
+
+
+
+/* Color Styles */
+
+
+/* Font Styles */
+
+
+/* Font Size */
+

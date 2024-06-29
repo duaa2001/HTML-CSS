@@ -1,0 +1,33 @@
+/* Adjacent Sibling Combinator (+) */
+.spell h3 + p {
+    font-family: "Jacquard 24", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* General Sibling Combinator (~) */
+.spell h3 ~ p {
+    color: #ff0000;
+    background-color: gold;
+}
+
+
+/* Child Combinator (>) */
+.spell-chapter > h2 {
+    color: white;
+    background-color: black;
+}
+
+/* Descendant Combinator ( ) */
+.spell {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px black; 
+}
+
+.spell-chapter {
+    border: solid 2px darkgoldenrod;
+} 
+
+
